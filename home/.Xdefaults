@@ -104,3 +104,33 @@ URxvt.termName: xterm
 URxvt.print-pipe: cat > /tmp/urxvt.$(date +%s)
 URxvt.keysym.Pause: command:\033c
 !URxvt.keysym.Pause: command:\033]c
+
+*background:  #000000
+!*foreground:  #b5b0ad
+*foreground: #dddddd
+! Black
+*color0:      #131313
+*color8:      #555753
+! Red
+*color1:      #cd7171
+*color9:      #e89393
+! Green
+*color2:      #9ece9e
+*color10:     #c4edc4
+! Yellow
+*color3:      #dfaf8f
+*color11:     #f0dfaf
+! Blue
+*color4:      #6c8b9c
+*color12:     #84a8bc
+! Magenta
+*color5:      #ad7fa8
+*color13:     #dc8cc3
+! Cyan
+*color6:      #8cd0d3
+*color14:     #81eaee
+! White
+!*color7:      #bbbbbb
+!*color15:     #c6c6c6
+*color7:      #dddddd
+*color15:     #eeeeee
