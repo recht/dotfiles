@@ -1,0 +1,106 @@
+!Emacs.default.attributeFont:  -*-courier-medium-r-*-*-*-90-*-*-m-*-*-* 
+!Emacs.default.attributeFont: -monotype-andale mono-medium-r-normal-*-*-110-*-*-p-*-iso8859-1
+Emacs.default.attributeFont: -misc-fixed-medium-r-normal-*-*-120-*-*-c-*-*
+Emacs*font: -misc-fixed-medium-r-normal-*-*-120-*-*-c-*-iso10646-1
+;Emacs*font:  -*-*-medium-r-*-*-*-120-*-*-m-*-*-* 
+Emacs*menubar*font: -misc-fixed-medium-r-normal-*-*-120-*-*-c-*-*
+;Emacs.modeline.attributeFont: fixed
+
+
+emacs*Background: DarkSlateGray
+emacs*Foreground: Wheat
+emacs*pointerColor: Orchid
+emacs*cursorColor: Orchid
+emacs*bitmapIcon: on
+emacs*font: fixed
+emacs.geometry: 80x25
+
+Seyon.modems: /dev/modem
+
+xterm*background: Black
+xterm*foreground: Wheat
+xterm*cursorColor: Orchid
+xterm*reverseVideo: false
+xterm*scrollBar: true
+xterm*reverseWrap: true
+xterm*font: fixed
+xterm*fullCursor: true
+xterm*scrollTtyOutput: off
+xterm*scrollKey: on
+xterm*utf8: 1
+xterm*VT100.Translations: #override\n\
+	<KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+xterm*titleBar: false
+
+xterm_color*background: Black
+xterm_color*foreground: Wheat
+xterm_color*cursorColor: Orchid
+xterm_color*reverseVideo: false
+xterm_color*scrollBar: true
+xterm_color*saveLines: 5000
+xterm_color*reverseWrap: true
+xterm_color*font: fixed
+xterm_color.geometry: 80x25+20+20
+xterm_color*fullCursor: true
+xterm_color*scrollTtyOutput: off
+xterm_color*scrollKey: on
+xterm_color*VT100.Translations: #override\n\
+	<KeyPress>Prior : scroll-back(1,page)\n\
+	<KeyPress>Next : scroll-forw(1,page)
+xterm_color*titleBar: false
+
+xterm*VT100.Translations: #override <Key>BackSpace: strin(0x7F)\n\
+	<Key>Delete:	string(0x1b) string("[3~")\n\
+	<Key>Home:	string(0x1b) string("[1~")\n\
+	<Key>End:	string(0x1b) string("[4~")\n\
+	Ctrl<Key>Prior:	string(0x1b) string("[40~")\n\
+	Ctrl<Key>Next:	string(0x1b) string("[41~")\n\
+
+nxterm*VT100.Translations: #override <Key>BackSpace: strin(0x7F)\n\
+	<Key>Delete:	string(0x1b) string("[3~")\n\
+	<Key>Home:	string(0x1b) string("[1~")\n\
+	<Key>End:	string(0x1b) string("[4~")\n\
+	Ctrl<Key>Prior:	string(0x1b) string("[40~")\n\
+	Ctrl<Key>Next:	string(0x1b) string("[41~")\n\
+xosview*loadPriority:	10
+xosview*loadUsedFormat:	percent
+xosview*cpuPriority:	10
+xosview*cpuUsedFormat:	percent
+xosview*memPriority:	10
+xosview*swapPriority:	10
+xosview*pagePriority:	10
+xosview*netPriority:	10
+xosview*diskPriority:	5
+
+
+Netscape*myshopping.tipString: News
+Netscape*myshopping.documentationString: Go to News.com
+Netscape*toolBar*myshopping.labelString: News
+Netscape*strings.22495:http://www.news.com
+Netscape*toolBar.viewSecurity.isEnabled: false
+Netscape*documentFonts.xResolution*iso-8859-1: 120
+Netscape*documentFonts.yResolution*iso-8859-1: 120
+
+XTerm*Font4:	bashish
+rxvt*font4:	bashish
+aterm*font4:	bashish
+wterm*font4:	bashish
+ 
+Eterm*buttonbar: false
+
+URxvt.scrollstyle: plain
+URxvt.secondaryScroll: true
+URxvt.saveLines: 10000
+!URxvt.shading: 80
+URxvt.scrollBar_floating: true
+URxvt.scrollTtyOutput: false
+URxvt.scrollTtyKeypress: false
+!URxvt.inheritPixmap: true
+URxvt.foreground: white
+URxvt.background: black
+URxvt.transparent: false
+URxvt.termName: xterm
+URxvt.print-pipe: cat > /tmp/urxvt.$(date +%s)
+URxvt.keysym.Pause: command:\033c
+!URxvt.keysym.Pause: command:\033]c
