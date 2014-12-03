@@ -320,6 +320,7 @@ export LESSCHARSET=latin1
 #export LC_CTYPE=iso_8859_15
 
 export CHARSET=ISO-8859-1
+export PATH=$PATH:$HOME/bin
 
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
